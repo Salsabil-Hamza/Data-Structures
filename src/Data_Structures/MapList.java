@@ -9,19 +9,32 @@ public class MapList {
     static Map<Integer, Set<Integer>> partitionIntegers(List<Integer> myList, int n) {
 
         Map<Integer, Set<Integer>> partitionedMap = new HashMap<>();
-        int key=0;
+        //first method
+        for (Integer element:myList) {
 
-        while (key <n)
-        { Set<Integer> set = new HashSet<>();
-            for (Integer element: myList) {
-                if (element%n==key)
-
-                { set.add(element);
-                partitionedMap.put(key, set);}
+            int i=element%n;
+            if (!partitionedMap.containsKey(i))
+            {
+                Set<Integer> set = new HashSet<>();
+                partitionedMap.put(i,set);
             }
-           key++;
-        }
 
+            Set<Integer> set= partitionedMap.get(i);
+            set.add(element);
+        }
+// second method
+//        int key=0;
+//
+//        while (key <n)
+//        { Set<Integer> set = new HashSet<>();
+//            for (Integer element: myList) {
+//                if (element%n==key)
+//
+//                { set.add(element);
+//                partitionedMap.put(key, set);}
+//            }
+//           key++;
+//        }
       return partitionedMap;
     }
       public static void main (String[]args) {
@@ -31,6 +44,6 @@ public class MapList {
           _list.add(3);
           _list.add(3);
           _list.add(7);
-          System.out.println(partitionIntegers(_list, 20));
+          System.out.println(partitionIntegers(_list, 3));
          }
       }
