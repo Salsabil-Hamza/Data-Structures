@@ -5,15 +5,17 @@ import java.util.Map;
 
 public class Translator {
 
-      void addTranslation(String word,String translation)
+    public void addTranslation(String word,String translation)
     {
        Map<String,String> dictionary = new HashMap<>();
        dictionary.put(word,translation);
+
     }
 
 
-    String translate(String word)
+   public String translate(String word)
     {
+
         return "hi";
     }
 
