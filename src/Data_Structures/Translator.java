@@ -18,7 +18,6 @@ public class Translator {
 
    String translate(String word, Map<String,String> dictionary)
     {
-
         if (!dictionary.containsKey(word))
         {return "sorry the word does not exist";}
         else return "the meaning of the word "+word+" is "+ dictionary.get(word);
