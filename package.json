@@ -1,0 +1,22 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "I am checking how it works",
+  "main": "bot.js",
+  "scripts": {
+    "test": "rainbows are awesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salsabil-Hamza/Data-Structures.git"
+  },
+  "keywords": [
+    "rainbows"
+  ],
+  "author": "Salsabil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salsabil-Hamza/Data-Structures/issues"
+  },
+  "homepage": "https://github.com/Salsabil-Hamza/Data-Structures#readme"
+}
