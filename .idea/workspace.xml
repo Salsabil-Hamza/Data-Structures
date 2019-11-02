@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e61e946c-1f0c-440f-8e97-a3b84d708b0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structures/Translator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data_Structures/HashSetP46.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="255">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/Data_Structures/Translator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data_Structures/List_continued.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="187">
               <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,7 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,7 +148,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +287,8 @@
       <workItem from="1572449742569" duration="359000" />
       <workItem from="1572450111839" duration="1919000" />
       <workItem from="1572533823690" duration="3765000" />
-      <workItem from="1572684196779" duration="552000" />
+      <workItem from="1572684196779" duration="2086000" />
+      <workItem from="1572686294233" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="Map structure code created">
       <created>1572252537985</created>
@@ -313,7 +315,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64095000" />
+    <option name="totallyTimeSpent" value="66288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -323,7 +325,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19886823" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20210186" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43085107" />
@@ -364,6 +366,14 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -401,7 +411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Data_Structures/HashSetP46.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -425,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Data_Structures/List_continued.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="187">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -443,7 +453,7 @@
     <entry file="file://$PROJECT_DIR$/src/Data_Structures/Translator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
