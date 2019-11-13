@@ -13,6 +13,7 @@ public class Translator {
 
        {dictionary.put(word,translation); }
 
+
     }
 
 
